@@ -1,4 +1,4 @@
-FROM gcr.io/tensorflow/tensorflow:latest-devel-py3
+FROM gcr.io/tensorflow/tensorflow:latest-py3
 
 RUN apt-get update \
   && apt-get install -y openssh-server \
