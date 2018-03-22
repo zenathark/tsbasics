@@ -10,6 +10,6 @@ RUN apt-get update \
 EXPOSE 22
 
 WORKDIR /app
-COPY . .
+COPY . /app
 
 CMD /usr/sbin/sshd ; /run_jupyter.sh --allow-root

@@ -5,7 +5,7 @@ services:
     build: .
     env_file: .env
     volumes:
-      - D:/home/projects/python/src/github.com/zenathark/tsbasics:/d/home/projects/python/src/github.com/zenathark/tsbasics
+        - .:/app
     ports:
       - "2222:22"
       - "8888:8888"
